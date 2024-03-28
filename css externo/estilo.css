@@ -1,0 +1,17 @@
+h1{color: rgb(61, 6, 150);
+    background-color: rgb(238, 255, 0);
+    text-align: center;
+    text-transform: uppercase;
+
+    }
+    span{
+    color: rgb(107, 14, 14);
+
+    }
+    p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    text-align: justify;
+    font-weight: lighter;
+    text-transform: lowercase;
+    }
