@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Shadows+Into+Light&display=swap');
+.cabeçalho{
+    font-size: 0.8em;
+    text-align: center;
+}
+.titulo{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Anton'; 
+}
+.versiculo{
+    font-size: 1.3em;
+    text-align: center;
+    font-family: 'Shadows Into Light';
+}
+.texto{
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: justify;
+}
+.importante{
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    color: green;
+}
+.desafio{
+    font-style: italic;
+    text-align: center;
+    background-color: gray;
+}
+.nunito{
+    font-family: 'nunito';
+}
+.shadows-into light-regular {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
