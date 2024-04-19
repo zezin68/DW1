@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        kbd {
+            background-color: rgb(223, 223, 223);
+            border: 1px solid gray;
+            font-weight: bold;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Tag code</h1>
+    <p>
+        Ela apresenta seu conteúdo estilizado de maneira a indicar que o texto é um pequeno fragmento de código. Por
+        padrão, o conteúdo é exibido utilizando a fonte monoespaçada padrão do user agent's <br> </p>
+    <h3>Exemplo</h3>
+    
+    <pre>
+        <code>
+    x = 10
+    if 10 % 2 == 0:
+        print("PAR")
+    else:
+        print("IMPAR")
+        </code>
+    </pre>
+    <h1>Tag samp </h1>
+    <p>
+        Ela apresenta seu conteúdo estilizado de maneira a indicar que o texto é um pequeno fragmento de saída de um
+        programa.
+        Seu conteúdo normalmente é renderizado usando a fonte monoespaçada padrão do navegador
+    </p>
+    <pre>
+        <code>
+    x = 10
+    if 10 % 2 == 0:
+        print("PAR")
+    else:
+        print("IMPAR")
+        </code>
+    A <strong>saída</strong> será <samp>par</samp>
+    </pre>
+    <h1>Tag pre</h1>
+    <p>Essa Tag faz com que tudo que digitado dentro dela seja apresentado no site, com uma fonte monoespaçada </p>
+    <pre> esse  é
+        um exemplo
+    </pre>
+    <h1>Tag kbd</h1>
+    <p>A tag kbd faz com que toda a parte de texto incluída dentro dela seja lida pelo computador como um botão do teclado. Tudo dentro dessa tag é escrito em fonte monoespaçada</p>
+    <p>
+    <kbd>ctrl</kbd> + <kbd>C</kbd> : realiza uma cópia para a área de transferência <br> <br>
+    <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd> : abre um terminal com todos os atalhos do vs code <br><br>
+    <kbd>ctrl</kbd> + <kbd>v</kbd> : colo tudo que estiver na sua área de transferência <br><br>
+    <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>&#8595;</kbd> : faz criar um cursor a mais para baixo <br><br>
+    <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>End</kbd> : seleciona todo texto abaixo de onde o cursor está
+    </p>
+</body>
+
+</html>
