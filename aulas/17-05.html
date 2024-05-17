@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        div.container { 
+            background-color: gray;
+            width: 100vw;
+            height: 100vh;
+        }
+        div#cabecalho {
+            background-color: aqua;
+            height: 100vh;
+            width: 100vw;
+        }
+        div#secao1 {
+            background-color: blueviolet;
+            height: 200px;
+            width: 100vw;
+        }
+        div#secao2 {
+            background-color: gold;
+            height: 200px;
+            width: 100vw;
+        }
+        ul.menu a {
+            text-decoration: none;
+            color: unset;
+        }
+       
+        
+        ul.menu {
+            background-color: black;
+        }
+        ul.menu li {
+            
+            background-color: black;
+            color: white;
+            padding: 10px;
+            transition: 0.5s;
+            border: 1px solid black;
+            display: inline-block;
+            cursor: pointer;
+            
+        }
+        ul.menu li:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+            font-size: 2em;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <ul class="menu">
+        <li>Cabecalho</li>
+        <li><a href="https://www.youtube.com/">Lista 1</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank">Lista 2</a></li>
+    </ul>
+    <div id="cabecalho">
+        <h3>cabecalho</h3>
+    </div>
+    <div id="secao1">
+        <h3>secao 1</h3>
+    </div>
+    <div id="secao2">
+        <h3>secao 2</h3>
+    </div>
+</div>    
+</body>
+</html>
