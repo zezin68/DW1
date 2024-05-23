@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap');
+
+        :root {
+            --cor-fundo: black;
+            --cor-primaria: rgb(197, 197, 23);
+            --cor-secundaria: gray;
+            --fonte-principal: 114px "Oswald", sans-serif;
+            --fonte-secundaria : 30px "Noto Sans SC", sans-serif;
+            --altura-cabecalho: 120px;
+        }
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: var(--cor-fundo);
+        }
+        .card{
+            background-color: var(--cor-secundaria);
+            border: 1px solid var(--cor-primaria);
+            padding: 10px;
+            height: calc(100vh - var(--altura-cabecalho));
+            /* border-radius: 15px; */
+            /* margin: 10px; */
+        }
+        .cabecalho{
+            background-color: var(--cor-secundaria);
+            height: var(--altura-cabecalho);
+            overflow-y: scroll;
+
+        }
+        .card h1 {
+            margin-bottom: 10px;
+            color: var(--cor-primaria);
+            font: var(--fonte-principal);
+        }
+        .card ul {
+            margin-left: 30px;
+            color: var(--cor-primaria);
+            font: var(--fonte-secundaria)
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cabecalho">
+            <p>Cabeçalho</p><p>Cabeçalho</p><p>Cabeçalho</p><p>Cabeçalho</p><p>Cabeçalho</p><p>Cabeçalho</p><p>Cabeçalho</p><p>Cabeçalho</p><p>Cabeçalho</p><p>Cabeçalho</p>
+            <p>Cabeçalho</p>
+        </div>
+        <div class="card">
+            <h1>Lista de Tarefas</h1>
+            <ul>
+                <li>Tarefa 1</li>
+                <li>Tarefa 2</li>
+                <li>Tarefa 3</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
