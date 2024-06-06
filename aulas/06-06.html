@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            background-color: gray;
+            width: 100vw;
+            height: 100vh;
+            display: flex; 
+            /* flex-direction: row-reverse; */
+            /* ele inverte a ordem dos itens */
+
+            /* flex-direction: column; */
+            /* ele muda o eixo principal para eixo secundario */
+
+            /* flex-direction: column-reverse; */
+            /* mesma coisa que o row-reverse so q na coluna */
+
+            /* align-items: flex-start; */
+            /* ele meche com o blocao, no eixo secundario*/
+            align-content: flex-start;
+            /* tbm mexe no  eixo secundario */
+            justify-content: space-between;
+            /* justify-content: space-around; 
+            pra menu se usa isso */
+            flex-wrap: wrap; 
+            /* com esse comando, vai quebrar a linha, é bom para uma galeria de fotos por ex */
+            /* column-gap: 20px;
+            row-gap: 20px; */
+            gap: 20px;
+            
+        }
+        .flex-center{
+            display: flex; 
+            /* ele adapta os botões conforme o tamanho, exemplo o celular */
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            width: 5rem;
+            height: 5rem;
+            color: white;
+            border: 1px solid black;
+            /* display: inline-block; */
+            /* position: fixed;
+            right: 10px;
+            bottom: 10px; 
+            pra vc fixa o botao na tela nao importa o quanto vc role a tela */
+            
+        }
+        .bg-verde{
+            background-color: green;
+        }
+        .bg-azul{
+            background-color: blue;
+        }
+        .bg-vemelho{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1>Flexbox</h1> -->
+    <div class="container">
+        <div class="box bg-verde flex-center">1</div>
+        <div class="box bg-azul flex-center">2</div>
+        <div class="box bg-vemelho flex-center">3</div>
+        <div class="box bg-verde flex-center">1</div>
+        <div class="box bg-azul flex-center">2</div>
+        <div class="box bg-vemelho flex-center">3</div>
+        <div class="box bg-verde flex-center">1</div>
+        <div class="box bg-azul flex-center">2</div>
+        <div class="box bg-vemelho flex-center">3</div>
+        <div class="box bg-verde flex-center">1</div>
+        <div class="box bg-azul flex-center">2</div>
+        <div class="box bg-vemelho flex-center">3</div>
+        <div class="box bg-verde flex-center">1</div>
+        <div class="box bg-azul flex-center">2</div>
+        <div class="box bg-vemelho flex-center">3</div>
+        <div class="box bg-verde flex-center">1</div>
+        <div class="box bg-azul flex-center">2</div>
+        <div class="box bg-vemelho flex-center">3</div>
+        <div class="box bg-verde flex-center">1</div>
+        <div class="box bg-azul flex-center">2</div>
+        <div class="box bg-vemelho flex-center">3</div>
+        <div class="box bg-verde flex-center">1</div>
+        <div class="box bg-azul flex-center">2</div>
+        <div class="box bg-vemelho flex-center">3</div>
+    </div>
+</body>
+</html>
