@@ -5,161 +5,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        * {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
-
-        body {
-            overflow-x: hidden;
-            background-color: gray;
-        }
-
-        .container {
-            background-color: gray;
-            width: 100vw;
-            height: 100%;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        .menu {
-            position: sticky;
-            top: 0;
-            width: 100vw;
-            background-color: black;
-
-        }
-
-        .menu ul {
-            display: flex;
-            justify-content: center;
-            width: 100%;
-        }
-
-        .menu li {
-            list-style: none;
-
-        }
-
-        .menu a:hover {
-            background-color: white;
-            color: black;
-            height: 100%;
-            transition: 0.5s;
-            font-size: 20px;
-        }
-
-        .menu a {
-            display: inline-block;
-            border: 1px solid red;
-            border-radius: 10px;
-            padding: 25px 15px;
-            height: 100%;
-            color: white;
-            text-decoration: none;
-            margin-left: 30px;
-            display: flex;
-            align-items: center;
-            transition: 0.5s;
-        }
-        .principal{
-            height: 100vh;
-            background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202302/2321/3098481c9164bb5f33069b37e49fba1a572ea3b89971ee7b.jpg);
-            background-size: cover;
-            color: white;
-        }
-        .imagemzinha{
-            height: 100vh;
-            background-size: cover;
-            background-attachment: fixed;
-            background-image: url(https://i.ytimg.com/vi/zBmOEGOXXLQ/maxresdefault.jpg);
-        }
-    </style>
+    <link rel="stylesheet" href="/css externo/baldurs.css">
 </head>
 
 <body>
     <div class="container">
         <div class="menu">
             <ul>
-                <li><a href="#secao0">Desenvolvimeto</a></li>
+                <li><a href="#secao0">Desenvolvimento</a></li>
                 <li><a href="#secao1">História</a></li>
                 <li><a href="#secao2">Jogabilidade</a></li>
                 <li><a href="#secao3">GOTY</a></li>
             </ul>
         </div>
-        <div class="principal">
-            <h1 id="secao0">Desenvolvimento</h1>
-            <p>
-                Larian Studios: A Larian Studios é conhecida por sua abordagem inovadora em RPGs, especialmente
-                exemplificada na série "Divinity: Original Sin". Sua expertise em criar mundos imersivos e sistemas de
-                jogo complexos foi trazida para "Baldur's Gate 3".
+        <main>
+            <div class="principal">
+                <h1 id="secao0">Desenvolvimento</h1>
                 <br>
-                Parceria com Wizards of the Coast: A colaboração com a Wizards of the Coast, empresa por trás de
-                Dungeons & Dragons, foi fundamental para garantir a autenticidade do jogo. Isso incluiu acesso a
-                recursos de lore, designs de criaturas e consulta sobre mecânicas de jogo para garantir que o jogo se
-                encaixasse adequadamente no universo de D&D.
+                <p>
+                    Larian Studios: A Larian Studios é conhecida por sua abordagem inovadora em RPGs, especialmente
+                    exemplificada na série "Divinity: Original Sin". Sua expertise em criar mundos imersivos e sistemas de
+                    jogo complexos foi trazida para "Baldur's Gate 3".
+                    <br>
+                    Parceria com Wizards of the Coast: A colaboração com a Wizards of the Coast, empresa por trás de
+                    Dungeons & Dragons, foi fundamental para garantir a autenticidade do jogo. Isso incluiu acesso a
+                    recursos de lore, designs de criaturas e consulta sobre mecânicas de jogo para garantir que o jogo se
+                    encaixasse adequadamente no universo de D&D.
+                    <br>
+                    Acesso Antecipado: Optar pelo acesso antecipado permitiu que a Larian Studios envolvesse a comunidade
+                    desde o início do desenvolvimento. Isso permitiu ajustes com base no feedback dos jogadores, resultando
+                    em um jogo mais refinado e alinhado com as expectativas dos fãs.
+                </p>
+            </div>
+            <div id = "secao1" class="secao1">
+                <h1>História do jogo</h1>
                 <br>
-                Acesso Antecipado: Optar pelo acesso antecipado permitiu que a Larian Studios envolvesse a comunidade
-                desde o início do desenvolvimento. Isso permitiu ajustes com base no feedback dos jogadores, resultando
-                em um jogo mais refinado e alinhado com as expectativas dos fãs.
-            </p>
-        </div>
-        <div class="secao1">
-            <h1 id="secao1">História do jogo</h1>
-            <p>
-                Ambientação em Faerûn: Faerûn é um dos mundos mais populares do cenário de Dungeons & Dragons, repleto
-                de mitos, magia e aventuras. Baldur's Gate, uma cidade icônica dentro deste mundo, oferece uma rica
-                ambientação para explorar.
+                <p>
+                    Ambientação em Faerûn: Faerûn é um dos mundos mais populares do cenário de Dungeons & Dragons, repleto
+                    de mitos, magia e aventuras. Baldur's Gate, uma cidade icônica dentro deste mundo, oferece uma rica
+                    ambientação para explorar.
+                    <br>
+                    Invasão do Cerco: O Cerco é uma entidade cósmica e malévola que ameaça a estabilidade de Faerûn. Sua
+                    invasão desencadeia uma série de eventos que os jogadores devem enfrentar, enquanto lutam para salvar o
+                    mundo do caos iminente.
+                    <br>
+                    Escolhas Morais: O jogo apresenta uma narrativa rica, onde as escolhas dos jogadores têm consequências
+                    significativas. Desde alianças políticas até decisões éticas, as escolhas dos jogadores moldam não
+                    apenas o destino de seu personagem, mas também o mundo ao seu redor.</p>
+            </div>
+            <div class="secao2">
+                <h1 id="secao2">Jogabilidade</h1>
+                <div class="imagemzinha"></div>
                 <br>
-                Invasão do Cerco: O Cerco é uma entidade cósmica e malévola que ameaça a estabilidade de Faerûn. Sua
-                invasão desencadeia uma série de eventos que os jogadores devem enfrentar, enquanto lutam para salvar o
-                mundo do caos iminente.
+                <p>
+                    Combate Baseado em Turnos: Inspirado nas mecânicas de "Divinity: Original Sin", o combate é tático e
+                    estratégico, com os jogadores planejando cuidadosamente seus movimentos e habilidades para superar
+                    desafios. Elementos ambientais, como fogo e água, podem ser manipulados para obter vantagem tática.
+                    <br>
+                    Exploração: Baldur's Gate e seus arredores estão repletos de segredos para descobrir, desde masmorras
+                    perigosas até tesouros escondidos. Os jogadores são incentivados a explorar cada canto do mundo para
+                    encontrar missões secundárias, itens poderosos e NPCs interessantes.
+                    <br>
+                    Interatividade: A interação com NPCs é uma parte fundamental da jogabilidade, com diálogos ricos e
+                    ramificados que podem levar a diferentes resultados. Os jogadores podem formar alianças, fazer inimigos
+                    e até mesmo romances com personagens encontrados ao longo de sua jornada.
+                </p>
+            </div>
+            <div class="secao3">
+                <h1 id="secao3">GOTY 2023</h1>
                 <br>
-                Escolhas Morais: O jogo apresenta uma narrativa rica, onde as escolhas dos jogadores têm consequências
-                significativas. Desde alianças políticas até decisões éticas, as escolhas dos jogadores moldam não
-                apenas o destino de seu personagem, mas também o mundo ao seu redor.</p>
-        </div>
-        <div class="secao2">
-            <h1 id="secao2">Jogabilidade</h1>
-            <div class="imagemzinha"></div>
-            <p>
-                Combate Baseado em Turnos: Inspirado nas mecânicas de "Divinity: Original Sin", o combate é tático e
-                estratégico, com os jogadores planejando cuidadosamente seus movimentos e habilidades para superar
-                desafios. Elementos ambientais, como fogo e água, podem ser manipulados para obter vantagem tática.
-                <br>
-                Exploração: Baldur's Gate e seus arredores estão repletos de segredos para descobrir, desde masmorras
-                perigosas até tesouros escondidos. Os jogadores são incentivados a explorar cada canto do mundo para
-                encontrar missões secundárias, itens poderosos e NPCs interessantes.
-                <br>
-                Interatividade: A interação com NPCs é uma parte fundamental da jogabilidade, com diálogos ricos e
-                ramificados que podem levar a diferentes resultados. Os jogadores podem formar alianças, fazer inimigos
-                e até mesmo romances com personagens encontrados ao longo de sua jornada.
-            </p>
-        </div>
-        <div class="secao3">
-            <h1 id="secao3">GOTY 2023</h1>
-            <p>
-                Profundidade Narrativa: A história cativante e as escolhas morais significativas oferecem uma
-                experiência envolvente que ressoa com os jogadores.
-                <br>
-                Mecânicas Inovadoras: O sistema de combate baseado em turnos e a interatividade com o ambiente são
-                inovadores e bem executados, elevando o padrão para jogos do gênero.
-                <br>
-                Fidelidade ao Universo: Fãs de Dungeons & Dragons apreciam a atenção aos detalhes e a fidelidade ao
-                universo do jogo de mesa, tornando "Baldur's Gate 3" uma experiência autêntica para os fãs.
-                <br>
-                Engajamento da Comunidade: O acesso antecipado permitiu que a comunidade participasse ativamente do
-                desenvolvimento do jogo, criando uma conexão única entre os desenvolvedores e os jogadores e resultando
-                em um produto final mais polido e bem recebido.
-            </p>
-        </div>
+                <p>
+                    Profundidade Narrativa: A história cativante e as escolhas morais significativas oferecem uma
+                    experiência envolvente que ressoa com os jogadores.
+                    <br>
+                    Mecânicas Inovadoras: O sistema de combate baseado em turnos e a interatividade com o ambiente são
+                    inovadores e bem executados, elevando o padrão para jogos do gênero.
+                    <br>
+                    Fidelidade ao Universo: Fãs de Dungeons & Dragons apreciam a atenção aos detalhes e a fidelidade ao
+                    universo do jogo de mesa, tornando "Baldur's Gate 3" uma experiência autêntica para os fãs.
+                    <br>
+                    Engajamento da Comunidade: O acesso antecipado permitiu que a comunidade participasse ativamente do
+                    desenvolvimento do jogo, criando uma conexão única entre os desenvolvedores e os jogadores e resultando
+                    em um produto final mais polido e bem recebido.
+                </p>
+                </div>
+            <div class="rodape">
+                <h1>@Eduardo Lorenzo Novais Cheliga 2024</h1>
+            </div>
+        </main>
 
 
     </div>

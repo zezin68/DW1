@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    background-color: gray;
+}
+
+.container {
+    background-color: gray;
+    width: 100vw;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    background-color: black;
+    z-index: 1;
+
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu li {
+    list-style: none;
+
+}
+
+.menu a:hover {
+    background-color: white;
+    color: black;
+    height: 100%;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+.menu a {
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 25px 15px;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+.principal{
+    height: 100vh;
+    background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202302/2321/3098481c9164bb5f33069b37e49fba1a572ea3b89971ee7b.jpg);
+    background-size: cover;
+    color: white;
+}
+.imagemzinha{
+    padding: 0;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(https://i.ytimg.com/vi/zBmOEGOXXLQ/maxresdefault.jpg);
+}
+main{
+    position: fixed;
+    top: 70px;
+    height: calc(100vh - 70px);
+    width: 100vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+main div{
+    padding: 15px;
+}
+.secao2{
+    padding: 0;
+}
+.secao2 p, .secao2 h1{
+    padding: 15px;
+}
+.rodape{
+    
+    border-top: 1px solid black;
+    margin-top: 15px;
+}
