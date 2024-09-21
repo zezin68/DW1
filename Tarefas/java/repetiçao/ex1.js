@@ -1,9 +1,9 @@
 function crescente(n){
-    let um = 1
+    let um = 2
     while (um < n) {
-    let x = um + 1
-    console.log(x)
+        console.log(um)
+        um ++
     }
 
 }
-crescente(6)
+crescente(8)
