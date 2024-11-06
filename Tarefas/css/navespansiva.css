@@ -53,10 +53,6 @@ nav ul{
     margin-left: 0px;
 }
 
-.menu-items > li:not(.logotipo) {
-    margin-left: auto; 
-}
-
 nav li{
     height: 60px;
 }
