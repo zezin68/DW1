@@ -1,9 +1,9 @@
+var divmostrar = document.getElementById("div-mostrar")
 document.addEventListener('DOMContentLoaded', () => {
     // Selecionando elementos do DOM
     const button = document.querySelector('.button-add-task'); // Botão de adicionar tarefa
     const input = document.querySelector('.input-task'); // Campo de entrada
     const listaCompleta = document.querySelector('.list-tasks'); // Lista de tarefas
-    divmostrar = document.getElementById("div-mostrar")
     let minhaListaDeItens = []; // Inicializando uma lista vazia para armazenar as tarefas
   
     // Função para adicionar uma nova tarefa
@@ -85,15 +85,16 @@ document.addEventListener('DOMContentLoaded', () => {
     button.addEventListener('click', adicionarNovaTarefa); // Adicionar tarefa quando o botão é clicado
     input.addEventListener('keyup', handleKeyPress); // Adicionar tarefa quando a tecla Enter é pressionada no campo de entrada
     listaCompleta.addEventListener('click', handleListClick); // Lidar com cliques na lista de tarefas
+    function contar(x){
+      let conc = 0
+      let andante = 0
+      for (andante; andante < x.lenght; andante++){
+          if(x[andante].concluida){
+              conc++
+          }
+      }
+      return[andante,conc]
+  }
+  guardar = contar(minhaListaDeItens)
+  divmostrar.innerHTML = (`${guardar[0]}/${guardar[1]}`)
   });
-function contar(x){
-    let conc = 0
-    for (let andante = 0; andante < x.lenght; andante++){
-        if(x[andante].concluida){
-            conc++
-        }
-    }
-    return[andante,conc]
-}
-contar(minhaListaDeItens)
-divmostrar.innerHTML = (`${andante}/${conc}`)
